@@ -1,0 +1,1 @@
+export const stateManagement  = () => useState('state', ()=> 10);
