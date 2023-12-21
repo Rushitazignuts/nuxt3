@@ -1,21 +1,15 @@
 <template>
   <div>
-    <!-- <nuxtLink to="/">Home</nuxtLink>
-    <nuxtLink to="/products">Products</nuxtLink>
-    <nuxtLink to="/products/create"> add Products</nuxtLink> -->
-
-    <BNavbar>
-  <BNavbarNav>
-    <BNavItem :to="`/`">Home</BNavItem>
-    <BNavItem :to="`/products`">Products</BNavItem>
-    <BNavItem :to="`/admin`">Category</BNavItem>
-  </BNavbarNav>
-</BNavbar>    
+    <VTabs v-model="currentTab">
+      <VTab :to="`/`">Home</VTab>
+      <VTab :to="`/products`">Products</VTab>
+      <VTab :to="`/admin`">Category</VTab>
+    </VTabs>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+const currentTab = ref(0);
 </script>
 
 <style>

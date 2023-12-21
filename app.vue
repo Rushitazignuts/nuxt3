@@ -1,19 +1,11 @@
 <template>
   <div>
-    <!-- <NuxtLayout> -->
       <NavBar />
       <NuxtPage />
-    <!-- </NuxtLayout> -->
   </div>
 </template>
 
-<!-- <template>
-  <div>
-    <NuxtLayout name="custom">
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
-</template> -->
+
 <script setup>
 
 </script>

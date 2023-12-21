@@ -1,12 +1,10 @@
 <template>
   <div>
-    <h3 class="ms-3">Home page</h3>
-    <V-btn>Hello Sass Changes</V-btn>
+    <h3 class="ms-3 mt-3">Nuxt with vuetify</h3>
   </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style>
